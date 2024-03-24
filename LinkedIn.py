@@ -1,26 +1,7 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.service import Service
-
-
-def set_up(DPath, Login):
-    try:
-        path = DPath
-        # if using chrome
-        chrome_options = Options()
-        chrome_options.add_experimental_option('detach', True)
-        service = Service(executable_path=path)
-        driver = webdriver.Chrome(service=service, options=chrome_options)
-        # driver = webdriver.Chrome()
-        driver.get(Login)
-        driver.implicitly_wait(2)
-        return driver
-    except Exception as e:
-        raise e
-
 
 def login_LinkedIn(browser, User, Password, Feed, Applied):
     try:
