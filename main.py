@@ -125,8 +125,8 @@ from scrappy import get_pagination, scrap_applied_jobs, split_applied_jobs
 from date_functionality import extract_date_string, replace_date_string, compare_with_today
 from LinkedIn import login_LinkedIn
 
-username = "suseendarannair@gmail.com"
-password = "Azsxdcfvgbhnjmk@123"
+username = "******"
+password = "******"
 login_url = "https://www.linkedin.com/login"
 feed_url = "https://www.linkedin.com/feed/"
 applied = "https://www.linkedin.com/my-items/saved-jobs/?cardType=APPLIED"
