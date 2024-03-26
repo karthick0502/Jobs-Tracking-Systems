@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bad6a4;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .popup {
+    background-color: #fff;
+    border-radius: 0.5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .close {
+    float: right;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .popup-content h2 {
+    font-size: 28px;
+  }
+  
+  .popup-content p {
+    font-size: 18px;
+  }
+  
+  #btn-tracker {
+    background-color: #969c96;
+    border: none;
+    color: white;
+    padding: 1.2rem 2.4rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.2rem 0;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+  
+  #btn-tracker:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
