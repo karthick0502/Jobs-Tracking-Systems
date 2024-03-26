@@ -13,6 +13,8 @@ from LinkedIn import login_LinkedIn
 
 username = "*****"
 password = "*****"
+username = "******"
+password = "******"
 login_url = "https://www.linkedin.com/login"
 feed_url = "https://www.linkedin.com/feed/"
 applied = "https://www.linkedin.com/my-items/saved-jobs/?cardType=APPLIED"
