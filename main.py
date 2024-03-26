@@ -8,10 +8,10 @@ from scrappy import get_pagination, scrap_applied_jobs, split_applied_jobs
 from date_functionality import extract_date_string, replace_date_string, compare_with_today
 from LinkedIn import set_up, login_LinkedIn
 
-path = r"K:\API works\chromedriver_win32\chromedriver.exe"
-path2 = r"C:\Users\mkart\.cache\selenium\chromedriver\win64\122.0.6261.128\chromedriver.exe"
-username = "mkarthick502@gmail.com"
-password = "7502144781@$K"
+path = "*******"
+path2 = "*******"
+username = "********"
+password = "********"
 
 login_url = r"https://www.linkedin.com/login"
 feed_url = r"https://www.linkedin.com/feed/"
