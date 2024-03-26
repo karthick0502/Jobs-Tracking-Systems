@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Tracker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <div class="popup-content">
+      <h2>LinkedIn Tracker</h2>
+      <div id="loginForm">
+        <p>Please enter your LinkedIn credentials:</p>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button id="btn-tracker">Track Applied Jobs</button>
+      </div>
+      <div id="loggedInMessage" style="display: none;">
+        <p>You are logged in.</p>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
